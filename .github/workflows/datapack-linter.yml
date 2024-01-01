@@ -52,7 +52,7 @@ jobs:
             ts-node ./.github/workflows/make-declares-mcf.ts
         env:
           CHECKOUT_PATH: /home/runner/work/TheSkyBlessing/TheSkyBlessing/
-          REPOSITORY: ProjectTSB/TheSkyBlessing
+          REPOSITORY: haiiro2gou/TheSkyBlessing
           BRANCH: master
           VISIBILITY_FILTER: |
             function@asset:artifact/artifact_name/trigger/2.check_condition
@@ -83,6 +83,6 @@ jobs:
             branch: master
             directory: ./Asset2
             message: |
-                Update Declares from ProjectTSB/TheSkyBlessing@${{ github.SHA }}
+                Update Declares from haiiro2gou/TheSkyBlessing@${{ github.SHA }}
 
                 [regenerate cache]
